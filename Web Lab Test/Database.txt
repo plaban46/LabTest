@@ -1,0 +1,9 @@
+create table info(
+          ID int identity(1,1) primary key,
+          Name varchar(40),
+		  Email varchar(50),
+		  Pass varchar(50)
+		  );
+drop table info;
+Select * from info;
+
