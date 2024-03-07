@@ -6,13 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class loginTest {
 
-
     @Test
-    public task1()
-    {
-       login a = login.getInstance();
-       login b = login.getInstance();
-       assertTrue(true, a.hashCode(), b.hashCode());
-    }
+    void getInstance() {
+        login a = login.getInstance();
+        login b = login.getInstance();
 
+        assertEquals(a.hashCode(),b.hashCode());
+    }
 }
