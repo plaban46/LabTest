@@ -10,8 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Class1 class1 = new Class1();
-            class1.func();
+            Chef chef = new Chef();
+            chef.MakeChicken();
+            chef.MakeSalad();
+            chef.MakeSpecialDish();
+
+            ItalianChef italian = new ItalianChef();
+            italian.MakeChicken();
+            italian.MakeSalad();
+            italian.MakeSpecialDish();
+            italian.MakePizza();
 
             Console.ReadLine();
         }
