@@ -1,0 +1,60 @@
+.parent {
+  height: 300vh;
+}
+
+.child-one {
+    
+/*position: static;  /* position: static    is Default */
+
+/*position: absolute;  /* position: absolute  -> Positioning with parent HTML : Absolute which works just like relative but it's moved based on its parent.*/
+/*position: relative;  /* position: relative  -> Elements stay just like static but you can move it based on itself. :> Elements stay in the normal flow but can be slightly shifted within their original space using offsets.*/
+
+/*position: fixed;  /* position: fixed  -> Elements are also outside the normal flow but positioned relative to the viewport, remaining fixed even when scrolling.L*/
+/*position: sticky;  /* position: fixed  -> Elements behave like relative until a certain point, then become fixed like position: fixed*/
+
+ 
+
+
+
+
+/* position: absolute; */
+position: relative;
+ margin-left: 50px;
+ width: 60%;
+}
+
+.child-two {
+    position: sticky;
+    top: 40px;
+}
+
+.child-three {
+position: fixed;
+margin-top: 100px;
+}
+ 
+
+
+
+
+
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+}
+
+.child {
+  padding: 5px; 
+}
+
+.child-one {
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
+}
