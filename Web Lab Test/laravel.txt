@@ -1,0 +1,13 @@
+Open your command prompt and write the command, `composer`. 
+
+ `composer create-project laravel/laravel example-app`
+   Go to ‘\example-app’ directory by using `cd example-app` command, 
+    To run the project write the command `php artisan serve`.
+
+
+php artisan key:generate
+php artisan serve
+php artisan make:migration create_users_table
+php artisan migrate
+php artisan migrate:fresh
+php artisan make:model User
